@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements selectors</title>
+    <style>
+        p::first-line{
+            color: #ce1605;
+        }
+        p::first-letter{
+            color: #ff029e;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        h1::before{
+            content: url("images/icons8-bullseye-48.png");
+            
+        }
+        h2::after{
+            content: url("images/icons8-bullseye-48.png");
+            
+        }
+        ::marker{
+            color: #ce1605;
+            font-size: 36px;
+        }
+
+        ::selection{
+            color: #2ac78b;
+            background-color: #ce1605;
+        }
+        div{
+            width: 850px;
+            margin: 50px auto;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptate neque totam tenetur magnam. Nemo, eos cupiditate saepe magni doloremque voluptate itaque iure cum? Ipsam optio rem illo quia quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dicta fugit alias asperiores eveniet culpa pariatur, accusamus quaerat, provident omnis modi, nobis similique maiores consectetur vero voluptatem rerum in temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi doloribus voluptas natus reprehenderit enim ratione accusantium temporibus. Dolorem quasi odit deserunt consectetur asperiores maiores esse itaque voluptate expedita maxime! </p>
+        <h1>Hello Hyderbad</h1>
+        <h2>India is my target</h2>
+        <hr>
+        <ul>
+            <li>India</li>
+            <li>Hyderbad</li>
+            <li>Vizag</li>
+            <li>Thirupati</li>
+        </ul>
+        <ol>
+            <li>India</li>
+            <li>Hyderbad</li>
+            <li>Vizag</li>
+            <li>Thirupati</li>
+        </ol>
+    </div>
+</body>
+</html>
