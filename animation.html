@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      .animation-tile {
+        width: 400px;
+        height: 400px;
+        background-color: #4d0101;
+        /* background-image: url("images/bg-img.jpg"); */
+        background-size: cover;
+        animation-name: myAnimation;
+        animation-duration: 6s;
+        animation-delay: 2s;
+        /* animation-direction: alternate; */
+        animation-iteration-count: infinite;
+      }
+      @keyframes myAnimation {
+        /* from {
+          background-color: #4d0101;
+        }
+        to {
+          background-color: #02890b;
+        } */
+        0% {
+          background-color: #4d0101;
+          /* background-image: url("images/bg-img.jpg"); */
+          color: #fcfcfc;
+          margin-left: 0px;
+        }
+        15% {
+          background-color: #25037b;
+          /* background-image: url("images/bg-img1.jpg"); */
+          color: #a2ff00;
+          margin: 50% auto;
+        }
+        25% {
+          background-color: #014d13;
+          /* background-image: url("images/pongal-whishes.jpg"); */
+          color: #05d3f8;
+          margin-right: 0px;
+        }
+        50% {
+          background-color: #9d0544;
+          /* background-image: url("images/bg-img.jpg"); */
+          color: #dedede;
+        }
+        75% {
+          background-color: #02a2ff;
+          /* background-image: url("images/bg-img1.jpg"); */
+          color: #000000;
+          margin-bottom: 0px;
+        }
+        100% {
+          background-color: #ffe601;
+          /* background-image: url("images/pongal-whishes.jpg"); */
+          color: #ff0303;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animation-tile">
+      <h1>Hello Devender</h1>
+    </div>
+  </body>
+</html>

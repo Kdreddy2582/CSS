@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Background</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .bg-img {
+        width: 800px;
+        height: 520px;
+        border: 2px solid;
+        margin: 60px auto;
+        background-image: url("images/bg-img.jpg");
+        /* background-repeat: no-repeat; */
+        /* background-repeat: repeat-x; */
+        /* background-repeat: repeat-y; */
+        background-size: cover;
+        /* background-position: 50px 80px; */
+        /* background-position-x: left; */
+        /* background-position-y: bottom; */
+        position: relative;
+      }
+      .box {
+        width: 96%;
+        /* border: 2px solid; */
+        margin: auto;
+        position: absolute;
+        top: 30px;
+        left: 2%;
+        text-align: center;
+      }
+      .box h1 {
+        color: #f23404;
+        background-color: #d6c6c2;
+      }
+      .box p {
+        color: #330101;
+        font-size: 26px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-img">
+      <div class="box">
+        <h1>Hello World</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
+          odio, cupiditate ad voluptates distinctio possimus iure quae totam,
+          impedit nulla mollitia eligendi quisquam cumque, vel sint beatae
+          maiores nesciunt eos.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+          recusandae repellendus esse animi debitis. Nesciunt fugiat autem porro
+          ipsam distinctio, atque eligendi esse a eaque explicabo dolore dolores
+          suscipit non.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

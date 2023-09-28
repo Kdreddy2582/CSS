@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Responsive</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      .container {
+        width: 100%;
+        padding: 50px 20px;
+        margin: 0px;
+        /* border: 20px solid; */
+        box-sizing: border-box;
+      }
+      .col-12 {
+        width: 24%;
+        border: 1px solid #fc0101;
+        padding: 5px;
+        box-sizing: border-box;
+        float: left;
+      }
+
+      @media (max-width: 575px) {
+        .container {
+          width: 100%;
+          padding: 50px 20px;
+          margin: 0px;
+          box-sizing: border-box;
+        }
+        .col-12 {
+          width: 100%;
+          border: 1px solid #ffea01;
+          padding: 5px;
+        }
+      }
+      @media (min-width: 576px) and (max-width: 768px) {
+        .col-12 {
+          width: 33%;
+          border: 1px solid #fa8704;
+          padding: 5px;
+          float: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-12">
+        <img src="images/digital-marketing.jpg" alt="" width="100%" />
+      </div>
+      <div class="col-12">
+        <img src="images/online-training.jpg" alt="" width="100%" />
+      </div>
+      <div class="col-12">
+        <img src="images/digital-marketing.jpg" alt="" width="100%" />
+      </div>
+      <div class="col-12">
+        <img src="images/online-training.jpg" alt="" width="100%" />
+      </div>
+      <div class="col-12">
+        <img src="images/digital-marketing.jpg" alt="" width="100%" />
+      </div>
+      <div class="col-12">
+        <img src="images/online-training.jpg" alt="" width="100%" />
+      </div>
+      <div class="col-12">
+        <img src="images/digital-marketing.jpg" alt="" width="100%" />
+      </div>
+      <div class="col-12">
+        <img src="images/online-training.jpg" alt="" width="100%" />
+      </div>
+    </div>
+  </body>
+</html>

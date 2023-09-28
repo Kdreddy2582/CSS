@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Container</title>
+    <style>
+      .container {
+        display: flex;
+        border: 5px solid;
+        width: 1050px;
+        height: 750px;
+        margin: 50px auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .flex-box1 {
+        background-color: #980303;
+        width: 60px;
+        height: 60px;
+      }
+      .flex-box2 {
+        background-color: #3a02d6;
+        width: 60px;
+        height: 60px;
+      }
+      .flex-box3 {
+        background-color: #f2fa02;
+        width: 60px;
+        height: 60px;
+      }
+      .flex-box4 {
+        background-color: #fd02ba;
+        width: 60px;
+        height: 60px;
+      }
+      .flex-box5 {
+        background-color: #f86001;
+        width: 60px;
+        height: 60px;
+      }
+      .flex-box6 {
+        background-color: #02780c;
+        width: 60px;
+        height: 60px;
+      }
+      .box {
+        padding: 40px;
+        font-size: 36px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box flex-box1">1</div>
+      <div class="box flex-box2">2</div>
+      <div class="box flex-box3">3</div>
+      <div class="box flex-box4">4</div>
+      <div class="box flex-box5">5</div>
+      <div class="box flex-box6">6</div>
+      <div class="box flex-box1">7</div>
+      <div class="box flex-box2">8</div>
+      <div class="box flex-box3">10</div>
+      <div class="box flex-box5">11</div>
+      <div class="box flex-box6">12</div>
+    </div>
+  </body>
+</html>
